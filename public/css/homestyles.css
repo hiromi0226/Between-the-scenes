@@ -1,0 +1,132 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a4aaaa;
+}
+li {
+    float: left;
+}
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #eddada;
+}
+.intro{
+  font: Impact; 
+  font-size: 30px;
+}
+.close{
+  font-size: 40px;
+}
+img.{
+  border-radius: 50%;
+    padding: 20px;
+}
+h1 {
+  font-family: Impact;
+  font-size: 100px;
+}
+h2 {
+  font-family: Impact;
+  font-size: 50px;
+}
+img.{
+  border-radius: 50%;
+    padding: 20px;
+}
+  body {
+    background-color: ;
+  }
+p {
+  Impact, Charcoal, sans-serif; font-size: 50px;
+}
+h3 {
+  "Courier New", Courier, monospace; font-size: 35px;
+}
+h13 { 
+    "Comic Sans MS", cursive, sans-serif; font-size: 30px;
+ }
+h16 {
+  Impact, Charcoal, sans-serif; font-size: 35px;
+}
+h7 {
+  font-size: 15px;
+}
+body {
+ background-color: Pink;
+}
+#name{
+ text-align: center;
+ font-weight: bold;
+}
+div.background {
+    background: url(https://i.imgur.com/BXIHCQH.jpg?1) repeat;
+    border: 2px solid black;
+}
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+travel.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+photo1.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+photo2.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+photo3.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+photo4.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+photo5.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+photo6.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+photo7.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

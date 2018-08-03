@@ -1,59 +1,94 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="/css/quizstyles.css">
         <title>Your movie destination quiz</title>
     </head>
-    
     <body> 
-            <h1>What is your travel destination based on these questions?</h1>
+
+      <h1 class="title" align = center>Where should you travel based on these questions?</h1>
             
             <form method="POST" action="/results">
             
-            <h2>What do you do in your free time?</h2>
-            <input type="radio" name="Freetime" value="5">Shopping<br>
-            <input type="radio" name="Freetime" value="10">Exploring<br>
-            <input type="radio" name="Freetime" value="15">Relaxing<br>
-            <input type="radio" name="Freetime" value="20">Eating<br>
-            
-            <h2>What are your travel concerns?</h2>
-            <input type="radio" name="Concerns" value="5">Money<br>
-            <input type="radio" name="Concerns" value="10">Saftey<br>
-            <input type="radio" name="Concerns" value="15">Flying<br>
-            <input type="radio" name="Concerns" value="20">Time<br>
-            
-            <h2>What do you enjoy doing on vacation?</h2>
-            <input type="radio" name="Enjoy" value="5">Finding new outfits and accesories<br>
-            <input type="radio" name="Enjoy" value="10">Discovering new places<br>
-            <input type="radio" name="Enjoy" value="15">Going to a spa/resort<br>
-            <input type="radio" name="Enjoy" value="20">Spending time with friends and family<br>
-            
-            <h2>What is your ideal lodging space?</h2>
-            <input type="radio" name="Lodging" value="5">A fancy hotel<br>
-            <input type="radio" name="Lodging" value="10">Breakfast in bed / cottage<br>
-            <input type="radio" name="Lodging" value="15">Resort<br>
-            <input type="radio" name="Lodging" value="20">Cabin/tenting<br>
-            
-            <h2>IDeal travel scenery?</h2>
-            <input type="radio" name="Scenery" value="5">City<br>
-            <input type="radio" name="Scenery" value="10">Artsy<br>
-            <input type="radio" name="Scenery" value="22">Beach<br>
-            <input type="radio" name="Scenery" value="30">Mountains / greenery<br>
-            
-            <h2>What kind of music do you like to listen to?</h2>
-            <input type="radio" name="Music" value="2">Pop<br>
-            <input type="radio" name="Music" value="15">Rock<br>
-            <input type="radio" name="Music" value="22">Rege<br>
-            <input type="radio" name="Music" value="30">Country<br>
-            
-            <h2>What food do you enjoy?</h2>
-            <input type="radio" name="Food" value="2">Fancy<br>
-            <input type="radio" name="Food" value="15">Tropical<br>
-            <input type="radio" name="Food" value="22">Ethnic<br>
-            <input type="radio" name="Food" value="30">Homemade<br>
+        <h2>What do you like to do in your free time?</h2>
+<table border = 5>
+        <tr>
+          <td><input type="radio" name="Freetime" value="5">Shopping<br><img src = "https://userscontent2.emaze.com/images/82fe7d9d-8ed5-42d9-9bad-009b61eb1730/a8e399ba95330160399258bb95f57a90.jpeg" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Freetime" value="10">Exploring<br><img src = "https://iso.500px.com/wp-content/uploads/2015/12/kim.jpg" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Freetime" value="15">Relaxing<br><img src = "https://upload.wikimedia.org/wikipedia/commons/c/c2/Relaxing_in_the_hammock_by_the_sea_near_Almedalen.jpg" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Freetime" value="20">Eating<br><img src = "https://s3.amazonaws.com/s3.kjkkfm.radio.com/s3fs-public/styles/delta__775x515/public/man-eating.jpg?itok=w8FunHFo" height = "100px" width = "175"/><br></td> 
+        </tr>
+      </table>
+
+
+<h2>What are your travel concerns?</h2>
+<table border = 5>             
+        <tr>
+          <td><input type="radio" name="Concerns" value="5">Money<br><img src ="https://www.kiplinger.com/kipimages/ledes/smart-ways-to-spend-1K-373x261.jpg" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Concerns" value="10">Saftey<br>\<img src ="https://ei.marketwatch.com/Multimedia/2018/02/04/Photos/ZH/MW-GD019_bear_20180204173521_ZH.jpg?uuid=aeedf902-09fb-11e8-a325-9c8e992d421e" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Concerns" value="15">Flying<br><img src ="http://www.readersdigest.ca/wp-content/uploads/2017/03/surprising-airplane-facts-plane-crashes.jpg" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Concerns" value="20">Time<br><img src ="https://media.istockphoto.com/photos/woman-holding-hand-with-wrist-watch-and-looking-at-camera-picture-id494633746?k=6&m=494633746&s=612x612&w=0&h=KXmrAT0NaZfYsRI4XnK8Pn3x7vBLHSzGJ58t5R8yjGQ=" height = "100px" width = "175"/><br></td> 
+        </tr>
+      </table>
+
+
+ <h2>What do you enjoy doing on vacation?</h2>
+<table border = 5>             
+        <tr>
+          <td><input type="radio" name="Enjoy" value="5">Finding new accesories<br><img src ="http://jpninfo.com/wp-content/uploads/2016/09/girls-shopping-for-clothes.jpg" height = "100px" width = "175"/><br></td>
+          <td> <input type="radio" name="Enjoy" value="10">Discovering new places<br><img src ="https://media-cdn.tripadvisor.com/media/photo-s/13/0c/77/b3/quad-safari-kolymbia.jpg" height = "100px" width = "175"/><br></td>
+          <td> <input type="radio" name="Enjoy" value="15">Going to a spa/resort<br><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdoRBFn_u5KXPYPFmlUY-9ZydLEE_C00vsQe1irR4QJcMPvpJuAg" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Enjoy" value="20">Spending time with family<br>
+              <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ZVOCOBQL2vOZqqFR4DRLYUTomVzZMbK3BHushc2IEsjIE3xC" height = "100px" width = "175"/><br></td> 
+        </tr>
+      </table>
+
+
+ <h2>What is your ideal lodging space?</h2>
+<table border = 5>             
+        <tr>
+          <td> <input type="radio" name="Lodging" value="5">A fancy hotel<br><img src ="https://media-cdn.tripadvisor.com/media/photo-s/0c/6f/e0/f8/this-is-a-photo-of-a.jpg" height = "100px" width = "175"/><br></td>
+          <td> <input type="radio" name="Lodging" value="10">Bed and Breakfast<br><img src ="https://media-cdn.tripadvisor.com/media/photo-s/02/6b/49/10/the-one-bed-and-breakfast.jpg" width = "175"/><br></td>
+          <td><input type="radio" name="Lodging" value="15">Resort<br><img src ="https://ihg.scene7.com/is/image/ihg/intercontinental-moorea-4021204937-2x1?fit=fit,1&wid=2400&hei=1200" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Lodging" value="20">Camping<br><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkAm8w3V8e8SQGBdA51xlthpR1POD5L5DucXLK2LjTAYNcyA0E" height = "100px" width = "175"/><br></td> 
+        </tr>
+      </table>
+
+
+ <h2>What is your ideal travel scenery?</h2>
+<table border = 5>             
+        <tr>
+          <td><input type="radio" name="Scenery" value="5">Cities<br><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF8OdE9G2P-j_KqKRnZ4T3mGcI8frp6LOLwiopmvM-VdxHfG2E" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Scenery" value="10">Rural Towns<br><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnv5DfFT6MjnJQ4cXBZy4g8AmMbKibHVXkG9MxQvuQUNWQ10wK" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Scenery" value="15">Beaches<br><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl2o-efM7c3LY3McqXOdtyi0te3dZtINFSlj4PbfGyRLL2034n" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Scenery" value="20">Mountains<br><img src ="https://img-aws.ehowcdn.com/877x500p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/f24b4a7bf9f24d1ba5f899339e6949f3" height = "100px" width = "175"/><br></td> 
+        </tr>
+      </table>
+
+
+<h2>What kind of music do you like to listen to?</h2>
+<table border = 5>             
+        <tr>
+          <td><input type="radio" name="Music" value="5">Pop<br><img src ="http://www.slate.com/content/dam/slate/blogs/browbeat/2014/07/02/140702_BB_NameThatTune.jpg.CROP.promo-mediumlarge.jpg" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Music" value="10">Rock<br><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlemRd_IyrnN39ADmtpA3F-Sgq-VGnQ2u6Azm92KkQkQx4hjRd" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Music" value="15">Reggae<br><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe1hX5k9WJHI2Sha9ffjNSJno07HQdA_Ziz4caKIk3RSUo79-vLA" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Music" value="20">Country<br><img src ="http://www.berkleegroove.com/wp-content/uploads/2017/09/a-777x437.jpg" height = "100px" width = "175"/><br></td> 
+        </tr>
+      </table>
+
+
+<h2>What food do you enjoy?</h2>
+<table border = 5>             
+        <tr>
+          <td> <input type="radio" name="Food" value="5">Fancy<br><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7nPr_F_8aCCbeqhrWBzV_Xs8_fBg3C3e-pWzavg3HK60MMdSP" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Food" value="10">Tropical<br><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhIJ0I921UKFOHRj7gM7xY7iCQc95F7JmBTsT0tC6jgd_TTl0zYg" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Food" value="15">Ethnic<br><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6j7wI-RoNrra2fMbgpFGYsHvzGWqNvARlJbvkUJIsZ2Cc5uITJA" height = "100px" width = "175"/><br></td>
+          <td><input type="radio" name="Food" value="20">Homemade<br><img src ="https://happymoneysaver.com/wp-content/uploads/2014/08/23hotpockets-090.jpg" height = "100px" width = "175"/><br></td> 
+        </tr>
+      </table>  
 
              <br>
-            <button type="submit">Check how well you know me!</button>
-            </form>
-            
+            <button align="center" type="submit">Find out where you should travel!</button>
+            </form>   
       </body>
 </html>

@@ -8,8 +8,29 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/' do
+    return erb :homepage
+  end
+  
+  get '/index' do
     return erb :index
   end
+  
+   get '/hawaii' do
+    return erb :hawaii
+  end
+  
+  get '/europe' do
+    return erb :europe
+  end
+  
+   get '/newyork' do
+    return erb :newyork
+  end
+  
+   get '/california' do
+    return erb :california
+  end
+  
   
   post '/results' do
     points_array = params.values
@@ -28,7 +49,7 @@ class ApplicationController < Sinatra::Base
     elsif result == "Hawaii"
       return erb :hawaii
     else
-      return erb :us
+      return erb :california
     end
     
   end
